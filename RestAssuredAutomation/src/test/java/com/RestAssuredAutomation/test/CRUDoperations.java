@@ -14,22 +14,18 @@ import io.restassured.response.Response;*/
 
 public class CRUDoperations {
 
-/*	@Test
+	@Test
 	public void getTest()
 	{
 		Response resp=RestAssured.get("http://localhost:3000/posts");
-		//RestAssured is a class & get is a Mtd
-		//we are sending a request that req is get mtd and we are getting the resp and store it into resp obj
 		int stcode=resp.getStatusCode();
 		System.out.println(stcode);
-		//we are checking the status code for that req
 		String respbody=resp.asString();
 		System.out.println(respbody);
-		//asString is to get the response body
 		Assert.assertEquals(stcode, 200);
-	}*/
+	}
 	
-	/*@Test
+	@Test
 	public void postTest()
 	{
 		RequestSpecification req = RestAssured.given();
@@ -47,7 +43,7 @@ public class CRUDoperations {
 		String respbody=resp.asString();
 		System.out.println(respbody);
 		Assert.assertEquals(stcode, 201);
-	}*/
+	}
 	
 	
 	/*@Test
